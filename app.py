@@ -25,7 +25,7 @@ from model.models import ModelQA
 from util.process_data import split_sentence, preprocess_text, process_data
 from util.function import get_top_context
 from util.function import check_evidence, classify_nei
-login(token='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')
+login(token='xxxxx')
 device = "cpu"
 # Kiểm tra xem đã load model chưa
 @st.cache_resource  
